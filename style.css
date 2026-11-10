@@ -1,0 +1,17 @@
+@keyframes zoomUp {
+    0% {
+        opacity: 0;
+        transform: translateY(90vh) scale(0.3);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-80vh) scale(1);
+    }
+}
+
+#title {
+    text-align: center;
+    animation-name: zoomUp;
+    animation-duration: 6s;
+}
